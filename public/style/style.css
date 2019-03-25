@@ -1,0 +1,53 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: 
+}
+#fullName
+{
+    color: white;
+}
+.card
+{
+    width: 50vw;
+    height: 50vh;
+    position: relative;
+    background-color: dodgerblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+}
+#info 
+{
+   position: absolute;
+   left: 3em;
+   top: -0.5em;
+}
+img
+{
+    width: 10rem;
+    height: 10rem;
+}
+#dateOfBirth
+{
+    opacity: 0.5;
+}
+#links
+{
+    position: absolute;
+    list-style-type: none;
+    left: -3em;
+}
+#iconGithub, #iconMail
+{
+    width: 5em;
+    height: 5em;
+}
