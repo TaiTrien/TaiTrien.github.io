@@ -8,13 +8,13 @@ body
     height: 100vh;
     background: 
 }
-#fullName
+.container 
 {
-    color: white;
+
 }
 .card
 {
-    width: 50vw;
+    width: 90vh;
     height: 50vh;
     position: relative;
     background-color: dodgerblue;
@@ -28,8 +28,8 @@ body
 #info 
 {
    position: absolute;
-   left: 3em;
-   top: -0.5em;
+   left: 1em;
+   top: 2em;
 }
 img
 {
@@ -45,9 +45,11 @@ img
     position: absolute;
     list-style-type: none;
     left: -3em;
+    display: flex;
 }
-#iconGithub, #iconMail
+#iconGithub, #iconMail, #iconInsta
 {
-    width: 5em;
-    height: 5em;
+    width: 5vh;
+    height: 5vh;
+    padding: 5px;
 }
